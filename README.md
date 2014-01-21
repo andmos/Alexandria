@@ -1,4 +1,4 @@
 Alexandria
 ==========
 
-Library of code I often reuse in different projects
+Library of code / resources I often reuse in different projects
