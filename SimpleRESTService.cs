@@ -7,6 +7,7 @@ using System.Text;
 using Newtonsoft.Json;
 using System.Threading.Tasks;
 
+//Requires Newtonsofts JSON.net package from NUGet
 namespace Common.Services
 {
     public class SimpleRESTService
