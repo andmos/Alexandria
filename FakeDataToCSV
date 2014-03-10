@@ -1,7 +1,7 @@
 #! /bin/bash
-#Requires faker for python:
-#port install py27-pip 
-#pip install fake-factory
+# Requires faker for python:
+# port install py27-pip 
+# pip install fake-factory
 
 
 export PYTHONIOENCODING=UTF-8
