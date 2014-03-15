@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 //Requires Newtonsofts JSON.net package from NUGet
 namespace Common.Services
 {
-    public class SimpleRESTService
+    public class SimpleRESTServiceClient
     {
 	public async Task<object> GetAsync(string url)
         {
