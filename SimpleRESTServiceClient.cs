@@ -8,13 +8,14 @@ using Newtonsoft.Json;
 using System.Threading.Tasks;
 
 //Requires Newtonsofts JSON.net package from NUGet
+//PCL? Yes we can!
 namespace Common.Services
 {
     public class SimpleRESTServiceClient
     {
 	public async Task<object> GetAsync(string url)
         {
-            var request = (HttpWebRequest)HttpWebRequest.Create(new Uri(url));
+        var request = (HttpWebRequest)HttpWebRequest.Create(new Uri(url));
 	    WebResponse responseObject = await Task.Factory.FromAsync<WebResponse>(request.BeginGetResponse, 
 					request.EndGetResponse, request);
             var responseStream = responseObject.GetResponseStream();
