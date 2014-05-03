@@ -11,7 +11,7 @@ using System.Collections;
 
 //Requieres JSON.NET from NuGet 
 
-	public class SimpleRESTServiceClient<T> : IRestClient<T> where T : class
+	public class SimpleRESTServiceClient<T> : ISimpleRestClient<T> where T : class
     {
 
 		private string m_url; 
