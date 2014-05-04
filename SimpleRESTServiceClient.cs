@@ -35,7 +35,7 @@ using System.Collections;
 			return result;
 		}
 
-		private Task<string> MakeAsyncRequest(string urlAppend = string.empty)
+		private Task<string> MakeAsyncRequest(string urlAppend = null)
 		{
 			var request = (HttpWebRequest)WebRequest.Create(m_url + urlAppend);
 			request.ContentType = "application/Json";
