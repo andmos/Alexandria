@@ -3,12 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-namespace ChocolateyGui.Utilities.Converters
-{
-    using System.Globalization;
-    using System.Windows;
-    using System.Windows.Data;
+using System.Globalization;
+using System.Windows;
+using System.Windows.Data;
 
     public class CharCountToVisibilityConverter : IValueConverter
     {
@@ -23,4 +20,3 @@ namespace ChocolateyGui.Utilities.Converters
             throw new NotImplementedException();
         }
     }
-}

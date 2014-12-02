@@ -4,8 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ChocolateyGui.Utilities.Converters
-{
+
     using System.Windows.Data;
 
     [ValueConversion(typeof(List<string>), typeof(string))]
@@ -25,4 +24,3 @@ namespace ChocolateyGui.Utilities.Converters
             throw new NotImplementedException();
         }
     }
-}

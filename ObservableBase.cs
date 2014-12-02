@@ -1,11 +1,4 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright company="Chocolatey" file="ObservableBase.cs">
-//   Copyright 2014 - Present Rob Reynolds, the maintainers of Chocolatey, and RealDimensions Software, LLC
-// </copyright>
-// --------------------------------------------------------------------------------------------------------------------
 
-namespace ChocolateyGui.Base
-{
     using System.Collections.Generic;
     using System.ComponentModel;
     using System.Runtime.CompilerServices;
@@ -34,4 +27,3 @@ namespace ChocolateyGui.Base
             }
         }
     }
-}

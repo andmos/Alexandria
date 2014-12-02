@@ -1,11 +1,4 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright company="Chocolatey" file="LongSizeToFileSizeString.cs">
-//   Copyright 2014 - Present Rob Reynolds, the maintainers of Chocolatey, and RealDimensions Software, LLC
-// </copyright>
-// --------------------------------------------------------------------------------------------------------------------
 
-namespace ChocolateyGui.Utilities.Converters
-{
     using System;
     using System.Text;
     using System.Windows.Data;
@@ -40,4 +33,3 @@ namespace ChocolateyGui.Utilities.Converters
             throw new NotImplementedException();
         }
     }
-}

@@ -1,11 +1,4 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright company="Chocolatey" file="UriToVisibility.cs">
-//   Copyright 2014 - Present Rob Reynolds, the maintainers of Chocolatey, and RealDimensions Software, LLC
-// </copyright>
-// --------------------------------------------------------------------------------------------------------------------
 
-namespace ChocolateyGui.Utilities.Converters
-{
     using System;
     using System.Windows;
     using System.Windows.Data;
